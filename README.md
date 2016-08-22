@@ -2,8 +2,9 @@
 Kernel Supported Garbage Collector
 
 Directory Structure:
+
 	gc/gc_module/gc.c      : Garbage Collection moudule
-	
+
 	gc/gc_test/gc_test.c   : Userspace Process for Testing [ $ <process name> [no of threads] [no of operations] ]
 	gc/gc_test/gc.h        : Header file used by gc_test [ Helps userspace process in garbage collection ]
 	gc/gc_test/gc.sh		   : Shell script for extracting process size after every 2 seconds
