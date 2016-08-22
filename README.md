@@ -3,13 +3,13 @@ Kernel Supported Garbage Collector
 
 Directory Structure:
 
-	gc/gc_module/gc.c      : Garbage Collection moudule
+	gc_module/gc.c      : Garbage Collection moudule
 
-	gc/gc_test/gc_test.c   : Userspace Process for Testing [ $ <process name> [no of threads] [no of operations] ]
-	gc/gc_test/gc.h        : Header file used by gc_test [ Helps userspace process in garbage collection ]
-	gc/gc_test/gc.sh		   : Shell script for extracting process size after every 2 seconds
+	gc_test/gc_test.c   : Userspace Process for Testing [ $ <process name> [no of threads] [no of operations] ]
+	gc_test/gc.h        : Header file used by gc_test [ Helps userspace process in garbage collection ]
+	gc_test/gc.sh		   : Shell script for extracting process size after every 2 seconds
 
-	gc/gc_syscall/gc.c		 : syscall files having all syscalls implemented [provided here simply to compare]
+	gc_syscall/gc.c		 : syscall files having all syscalls implemented [provided here simply to compare]
 	
 	linux-4.3.3-project-153050015.patch : patch for linux kernel source modifications made
 
